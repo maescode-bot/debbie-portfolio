@@ -1,0 +1,66 @@
+/*
+	     ============Bootstrap break points=============
+		small (sm) devices (landscape phones, 576px and up)
+		@media (min-width: 576px;) {...}
+		 
+		 Medium (md) devices (tablets, 768px and up)
+		 @media (min-width: 768px;) {...}
+
+		 Large (lg) devices (desktops, 992px and up)
+		 @media (min-width: 992px;) {...}
+
+		 Extra (xl) large devices (large desktops, 1200px and up)
+		@media (min-width: 1200px;) {...}
+*/
+@import url('');
+
+
+@font-face{
+	font-family: "Poppins";
+	src:url("../font/typofont/Poppins-ExtraBold.ttf");
+}
+
+@font-face{
+	font-family: "Poppins-small";
+	src:url("../font/typofont/Poppins-Regular.ttf");
+}
+
+
+body {  overflow-x:hidden;
+		font-family:"Poppins-small";
+		background-color: #0F1E31;
+		color: white;
+     }
+#header h1{
+	font-family:"Poppins";
+	font-size: 3.5em;
+	letter-spacing: 5px;
+	font-style: normal;
+	font-weight: bold;
+}
+
+#humanly{
+  color:#E0245E;	
+}
+
+#booster{
+	font-family:"Poppins";
+	letter-spacing: 1px;
+	word-spacing: 3px;
+}
+#hey{
+	background-color:#223041;
+	padding: 2em 2em 2em 2em;
+	margin-left: 3em!important;
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+	border-bottom-right-radius: 40px;
+}
+
+#services{
+	margin-top: 60px !important;
+}
+
+#services h3, #services h5{
+	font-family:"Poppins";
+} 
