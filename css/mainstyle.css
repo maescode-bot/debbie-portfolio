@@ -29,8 +29,56 @@
 body {  overflow-x:hidden;
 		font-family:"Poppins-small";
 		background-color: #0F1E31;
-		color: white;
+		color:white;
      }
+
+.navbar{
+ 	margin-top: 10px;
+}
+
+
+.active div{
+	border-bottom: solid 1px #E0245E;
+	width: 38px !important;
+	margin: auto
+}
+
+
+#name{
+	color:white !important;
+	font-family:"Poppins";
+	font-size: 1.8em;
+	letter-spacing: 1px;
+}
+
+.navbar-nav a{
+	color:white !important; 
+}
+
+#group67{
+	width: 70px;
+	height: 57px;
+	margin-left: -10px;
+}
+
+
+#rule{
+	margin-top: 10px !important;
+	width: 100px;
+	height: 3px;
+	background-color: white;
+}
+
+#about-image{
+	width: 600px;
+	float:right;
+}
+
+#about-text{
+	font-size: 1.5em;
+	width: 600px;
+}
+
 #header h1{
 	font-family:"Poppins";
 	font-size: 3.5em;
@@ -38,29 +86,3 @@ body {  overflow-x:hidden;
 	font-style: normal;
 	font-weight: bold;
 }
-
-#humanly{
-  color:#E0245E;	
-}
-
-#booster{
-	font-family:"Poppins";
-	letter-spacing: 1px;
-	word-spacing: 3px;
-}
-#hey{
-	background-color:#223041;
-	padding: 2em 2em 2em 2em;
-	margin-left: 3em!important;
-	border-top-left-radius: 40px;
-	border-top-right-radius: 40px;
-	border-bottom-right-radius: 40px;
-}
-
-#services{
-	margin-top: 60px !important;
-}
-
-#services h3, #services h5{
-	font-family:"Poppins";
-} 
